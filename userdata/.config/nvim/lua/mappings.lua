@@ -13,6 +13,10 @@ map("n", "<leader>dl", ":t.<CR>")
 -- lsp
 map("n", "<leader>ss", vim.lsp.buf.hover)
 map("n", "<leader>rn", vim.lsp.buf.rename)
+map("n", "<leader>ca", vim.lsp.buf.code_action)
+
+map("n", "<leader>df", vim.lsp.buf.definition)
+map("n", "<leader>dc", vim.lsp.buf.declaration)
 
 -- diagnostic
 map("n", "<leader>sd", vim.diagnostic.open_float)
@@ -28,3 +32,4 @@ end)
 -- mini.pick
 map("n", "<leader>h", ":Pick help<CR>")
 
+map("n", "<leader>ch", ":noh<CR>")

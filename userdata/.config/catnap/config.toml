@@ -10,12 +10,12 @@
 [stats]
 #username  = {icon = " ", name = "user", color = "(RD)"}
 #hostname  = {icon = " ", name = "hostname", color = "(YW)"}
-#uptime    = {icon = " ", name = "uptime", color = "(BE)"}
 distro    = {icon = " ", name = "distro", color = "(GN)"}
 #kernel    = {icon = " ", name = "kernel", color = "(MA)"}
 desktop   = {icon = " ", name = "desktop", color = "(CN)"}
-terminal  = {icon = " ", name = "term", color = "(RD)"}
-shell     = {icon = " ", name = "shell", color = "(MA)"}
+#terminal  = {icon = " ", name = "term", color = "(RD)"}
+uptime    = {icon = " ", name = "uptime", color = "(BE)"}
+#shell     = {icon = " ", name = "shell", color = "(MA)"}
 packages  = {icon = " ", name = "packages", color = "(RD)"}  # WARNING: Resource Intensive
 # weather   = {icon = " ", name = "weather", color = "(BE)"} # Requires curl and an emoji font. | WARNING: Resource Intensive
 # gpu       = {icon = "󱔐 ", name = "gpu", color = "(MA)"}      # WARNING: Resource Intensive

@@ -6,13 +6,22 @@
 		"tooltip-format": "Artix btw"
 	},
 
+  "custom/openbracket": {
+    "format": "[",
+    "tooltip": false
+  },
+
+  "custom/closebracket": {
+    "format": "]",
+    "tooltip": false
+  },
+
 	// Default waybar
   "clock": {
-	// format-alt": "{:%H:%M}  ",
-    "format": "{:%R | %A, %B %d} ",
-    "tooltip-format": "<tt><small>{calendar}</small></tt>",
-    "calendar": {
-    "mode"          : "year",
+  "format": "{:%R | %A, %B %d} ",
+  "tooltip-format": "<tt><small>{calendar}</small></tt>",
+  "calendar": {
+  "mode"          : "year",
                   "mode-mon-col"  : 3,
                     "weeks-pos"     : "right",
                     "on-scroll"     : 1,
@@ -45,10 +54,4 @@
         "on-click-right": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01-",
 	    "format-icons": ["", "", ""]    
     },
-
-  "memory": {
-      "format": "  {}%",
-      "tooltip": true
-  },
-    
 }

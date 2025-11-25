@@ -1,0 +1,30 @@
+// -*- mode: jsonc -*-
+{
+  "layer": "top",
+  "position": "top",
+  "height": 42,
+  "spacing": 4, // Gaps between modules (4px)
+
+  "modules-left": [
+    "custom/artix",
+    "hyprland/workspaces",
+    "cava"
+  ],
+
+  "modules-center": [
+    "network",
+    "custom/openbracket",
+    "clock",
+    "custom/closebracket",
+    "wireplumber"
+  ],
+
+  "modules-right": [
+    "hyprland/language",
+    "custom/power"
+  ],
+
+  "include": [
+    "~/.config/waybar/modules.json"
+	]
+}

@@ -16,7 +16,7 @@ config.window_padding = {left = 4, right = 0, top = 2, bottom = 0}
 config.max_fps = 75
 
 -- Opacity
-config.window_background_opacity = 0.48
+config.window_background_opacity = 0.77
 config.text_background_opacity = 0.9
 
 -- Colours
