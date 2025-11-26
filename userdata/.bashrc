@@ -10,7 +10,8 @@
 # PS1='[\u@\h \W]\$ '
 
 eval "$(zoxide init bash)"
-source ~/.bash_aliases
+source "$HOME/.bash_aliases"
+source "$HOME/.bash_secret_aliases"
 catnap
 
 # uv

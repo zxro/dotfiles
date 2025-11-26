@@ -4,7 +4,7 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-DELAY=0.4
+DELAY=0.3
 echo "Awaiting $DELAY second before running Hyprland"
 sleep "$DELAY"
 dbus-run-session Hyprland
